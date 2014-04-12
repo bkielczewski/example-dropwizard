@@ -1,5 +1,5 @@
-Spring MVC Embedded Jetty Example
-=================================
+Dropwizard Example
+==================
 
 Minimal Dropwizard application
 
