@@ -1,10 +1,10 @@
-package eu.kielczewski.example.dropwizard;
+package eu.kielczewski.example;
 
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
-import eu.kielczewski.example.dropwizard.config.ExampleServiceConfiguration;
-import eu.kielczewski.example.dropwizard.hello.HelloResource;
+import eu.kielczewski.example.config.ExampleServiceConfiguration;
+import eu.kielczewski.example.resource.HelloResource;
 
 public class ExampleService extends Service<ExampleServiceConfiguration> {
 
